@@ -1,3 +1,12 @@
+import { navItem } from './navitem.js';
+
 export default function displayNav() {
-    console.log("My boy!");
+    let navbar = document.createElement('div');
+    navbar.className = "navbar";
+
+    navbar.appendChild(navItem("Home"));
+    navbar.appendChild(navItem("Menu"));
+    navbar.appendChild(navItem("About"));
+
+    return navbar;
 }

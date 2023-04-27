@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    height: 6vh;
+    padding: 0 30vw;
+}
+
