@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'crossaint-one';
+    src: url('./fonts/CroissantOne-Regular.otf');
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -32,22 +40,52 @@ ol, ul {
 }
 
 body {
+    position: relative;
     min-height: 100vh;
+    /* overflow-x:hidden; */
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-image: url('./images/cool-restaurant.jpg');
+    background-size: 100vw 200vh;
 }
 
 .navbar {
+    top: 0;
+    width:100%;
+    position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.301);
     height: 6vh;
-    padding: 0 30vw;
-    gap: 12vw;
+    gap: 10vw;
+    padding: 0 10vw;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.671);
 }
 
 .navItem {
     font-weight: bold;
     text-decoration: underline;
+}
+
+#mid {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: rgba(240, 248, 255, 0.301);
+    min-height: 50%;
+    width:60%;
+    font-family: 'crossaint-one', sans-serif;
+}
+
+.title {
+    font-size: 4rem;
+    text-align: center;
+    width: 60%;
+    margin-top: 2rem;
+    color: rgba(22, 5, 3, 0.897);
+    -webkit-text-stroke: 6px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.363);
 }
