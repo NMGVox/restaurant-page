@@ -57,7 +57,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(240, 248, 255, 0.301);
+    background-color: rgb(160, 160, 160);
     height: 6vh;
     gap: 10vw;
     padding: 0 10vw;
@@ -72,9 +72,11 @@ body {
 
 #mid {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
     box-sizing: border-box;
-    background-color: rgba(240, 248, 255, 0.301);
+    background-color: rgba(41, 123, 218, 0.349);
     min-height: 50%;
     width:60%;
     font-family: 'crossaint-one', sans-serif;
@@ -88,4 +90,22 @@ body {
     color: rgba(22, 5, 3, 0.897);
     -webkit-text-stroke: 6px;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.363);
+}
+
+.wrapper {
+    padding: 1rem 2rem;
+    box-sizing:border-box;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 20px;
+    width: 60%;
+    height:auto;
+    text-align: center;
+}
+
+.article-header {
+    font-family: 'crossaint-one', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
