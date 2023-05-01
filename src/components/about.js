@@ -1,5 +1,7 @@
+import { removeContent } from "./content-remove.js";
+
 function showAbout() {
-    console.log("Test");
+    removeContent(document.querySelector('#mid'));
 }
 
 export { showAbout };
