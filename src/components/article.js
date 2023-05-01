@@ -18,7 +18,6 @@ function headerBody() {
           min: 4
         }
     });
-    console.log(lorem.generateParagraphs(1))
     let text = document.createElement('p');
     text.textContent = lorem.generateParagraphs(1);
     return text;
