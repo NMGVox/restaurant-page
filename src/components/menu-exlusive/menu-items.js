@@ -1,4 +1,5 @@
 import myimg from '../../images/espresso.jpg';
+import pancake from '../../images/pancake.jpg';
 
 let drinks = [
     {
@@ -21,8 +22,8 @@ let drinks = [
 
 let food = [
     {
-        src: "img",
-        name: "Sunny-Side Sandwich"
+        src: pancake,
+        name: "Chocolate Panacakes"
     },
     {
         src: "img",

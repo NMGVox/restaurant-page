@@ -72,6 +72,10 @@ body {
     text-decoration: underline;
 }
 
+.navItem:hover {
+    cursor:pointer;
+}
+
 #mid {
     justify-self: stretch;
     display: flex;
@@ -148,7 +152,7 @@ p {
 
 .menu-head {
     font-family: 'crossaint-one';
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     -webkit-text-stroke: 6px;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.363);
     margin-top: 1rem;

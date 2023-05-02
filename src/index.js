@@ -7,6 +7,10 @@ import { showAbout } from "./components/about.js";
 
 function showDefault() {
     document.querySelector('body').appendChild(displayNav());
+
+    let div = document.createElement('div');
+    div.id = 'mid';
+    document.querySelector('body').appendChild(div);
     document.querySelector('body').appendChild(showHome());
     document.querySelector('body').appendChild(showFooter());
 
