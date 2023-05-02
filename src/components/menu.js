@@ -11,9 +11,9 @@ function showMenu() {
     header.classList.add("title");
     main.appendChild(header);
 
-    main.appendChild(newCat(drinks, "Drinks"));
-    main.appendChild(newCat(food, "Food"));
-    main.appendChild(newCat(dessert, "Dessert"));
+    main.appendChild(newCat(drinks, "DRINKS"));
+    main.appendChild(newCat(food, "FOOD"));
+    main.appendChild(newCat(dessert, "DESSERT"));
 }
 
 export {showMenu};

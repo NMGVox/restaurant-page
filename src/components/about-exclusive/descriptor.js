@@ -18,7 +18,7 @@ let info = {
 
 function showBiography (name) {
     let div = document.createElement('div');
-    div.className = 'bio-wrapper';
+    div.classList.add('wrapper', 'about-wrap');
 
     let title = document.createElement('h2');
     title.textContent = info[name].name;

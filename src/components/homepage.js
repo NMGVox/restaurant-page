@@ -8,9 +8,9 @@ export default function showHome() {
     removeContent(main);
 
     main.appendChild(title("Niko & Klonoa's Coffee Tavern"));
-    main.appendChild(newContainer("Get ready to say 'WAHOO!' when you taste our brew!"));
-    main.appendChild(newContainer("Our Story!"));
-    main.appendChild(newContainer("Come check us out!"));
+    main.appendChild(newContainer("GET READY TO SAY 'WAHOO!' WHEN YOU TASTE OUR BREW!"));
+    main.appendChild(newContainer("OUR STORY!"));
+    main.appendChild(newContainer("COME HANG WITH US!"));
 
     return main;
 }
