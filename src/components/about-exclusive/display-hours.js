@@ -1,20 +1,7 @@
-import { hours } from "./hours-info";
+import { newTable } from "./makeTable";
 
 function showHours() {
-    let div = document.createElement('div');
-    div.classList.add('wrapper', 'about-wrap');
-
-    let list = document.createElement('ul');
-    hours.forEach(h => {
-        let date = document.createElement('li');
-        date.textContent = h;
-        date.classList.add('schedule-item');
-        list.appendChild(date);
-    });
-
-    div.appendChild(list);
-
-    return div;
+    return newTable();
 }
 
 export { showHours };
