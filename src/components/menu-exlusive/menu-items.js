@@ -1,21 +1,29 @@
 import myimg from '../../images/espresso.jpg';
 import pancake from '../../images/pancake.jpg';
+import capp from '../../images/capp.PNG';
+import klospecial from '../../images/klospecial.PNG';
+import steakeggs from '../../images/steakeggs.PNG';
+import mocha from '../../images/mocha.PNG';
+import velvetbrew from '../../images/darkvelvet.PNG';
+import seb from '../../images/sausbagel.PNG';
+import redvelvet from '../../images/redvelvetcake.jpg';
+import cookie from '../../images/sugarcookie.jpg';
 
 let drinks = [
     {
-        src: myimg,
-        name: "Niko's Sunny Espresso"
+        src: mocha,
+        name: "Niko's Starry Mocha"
     },
     {
-        src: "img",
+        src: velvetbrew,
         name: "Dark Velvet Brew"
     },
     {
-        src: "img",
+        src: myimg,
         name: "OneShot QuickShot Espresso"
     },
     {
-        src: "img",
+        src: capp,
         name: "Wahoo Cappuccino"
     }
 ]
@@ -26,26 +34,26 @@ let food = [
         name: "Chocolate Panacakes"
     },
     {
-        src: "img",
+        src: steakeggs,
         name: "Steak and Eggs"
     },
     {
-        src: "img",
+        src: seb,
         name: "Sausage-Egg Bagel"
     },
 ]
 
 let dessert = [
     {
-        src: "img",
+        src: cookie,
         name: "Sugariest Cookie"
     },
     {
-        src: "img",
+        src: redvelvet,
         name: "Red Velvet Cake"
     },
     {
-        src: "img",
+        src: klospecial,
         name: "The Klonoa Special"
     },
 ]
